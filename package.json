@@ -1,0 +1,17 @@
+{
+    "name": "node-3-discord-haiden",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "tsc -w discBot.ts crypto.ts --out bot.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "discord.js": "^14.16.3",
+        "dotenv": "^16.4.5"
+    }
+}
